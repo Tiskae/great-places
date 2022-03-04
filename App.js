@@ -6,7 +6,7 @@ import PlacesNavigator from "./navigation/PlacesNavigator";
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <StatusBar backgroundColor="red" barStyle="light-content" />
+      {/* <StatusBar backgroundColor="red" barStyle="light-content" /> */}
       <PlacesNavigator />
     </View>
   );
