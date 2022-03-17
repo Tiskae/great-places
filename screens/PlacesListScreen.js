@@ -1,7 +1,7 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
 
-const PlacesListScreen = props => {
+const PlacesListScreen = (props) => {
   return (
     <View>
       <Text>PlacesListScreen</Text>
@@ -10,7 +10,7 @@ const PlacesListScreen = props => {
 };
 
 PlacesListScreen.navigationOptions = {
-    headerTitle: 'All Places'
+  headerTitle: "All Places",
 };
 
 const styles = StyleSheet.create({});
